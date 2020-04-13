@@ -39,3 +39,70 @@ Login/Logout
 ///
 Npm
 ReactSetup
+
+//////
+Node Package manager
+Package.json
+
+
+JSON> JavaScript Object Notation
+
+{
+    "sno":1
+    "name":"John",
+    "class":"React"
+}
+
+///Create TO package.json///
+**Node Js must be installed
+> Navigate to folder where you want to generate
+> npm init
+> answer all questions
+> type "yes"
+
+///////
+Local Packages 
+> Local to folder
+> Every app need to install it again
+
+Global Package
+> Global To the system
+> Only those package that help to create test or build
+
+///How To install Local Packages///
+> Navigate to folder where you want to install
+> npm i react / npm install react 
+
+> npm i 
+npm i react@16.2.2
+
+#Window 
+> Run your cmd as admin
+> npm i -g @aakashdeveloper/create-node-app
+
+#Mac/Linux
+> Open terminal
+> sudo npm i -g @aakashdeveloper/create-node-app
+
+/////Generate React Application////////
+#Window 
+(One Time)
+> Run your cmd as admin
+> npm i -g create-react-app
+
+(Every time to generate app)
+> Navigate to folder where you want to generate
+> create-react-app firstapp
+
+#Mac/Linux
+(One Time)
+> Open terminal
+> sudo npm i -g create-react-app
+
+(Every time to generate app)
+> Navigate to folder where you want to generate
+> create-react-app firstapp
+
+> cd firstapp
+> npm start
+> localhost:3000

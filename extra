@@ -37,8 +37,10 @@ Login/Logout
 
 
 ///
-Npm
-ReactSetup
+State/Props
+How to pass Props
+ClassBase Component
+
 
 //////
 Node Package manager
@@ -106,3 +108,23 @@ npm i react@16.2.2
 > cd firstapp
 > npm start
 > localhost:3000
+
+
+
+> Hooks Component 
+
+
+ClassBase       |   Functional
+-------------------------------------
+Logical         |    Dumb
+Bulk as compare |    Light in weight
+to Functional
+-----------------------------------------
+Statefull        |   Stateless
+Can Maintain     |   Cannot Maintain State
+State
+
+
+function abc(){
+    return a,b
+}

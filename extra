@@ -37,14 +37,11 @@ Login/Logout
 
 
 ///
-State/Props
-How to pass Props
-ClassBase Component
+list in listing page 
+details page 
+lifecycle Hooks
 
-
-//////
-Node Package manager
-Package.json
+React Hooks
 
 
 JSON> JavaScript Object Notation
@@ -128,3 +125,58 @@ State
 function abc(){
     return a,b
 }
+
+
+State = Local variable  (mutable)
+Props = help to tranport data( immutable)
+
+State Props
+
+Component A      =====Props========     Component B
+
+var a = 10
+undefined
+a>10?"hiii":"bie"
+"bie"
+a==10?"hiii":"bie"
+"hiii"
+a>10?a+1:a-1
+9
+a==10?a+1:a-1
+11
+
+
+/*
+*******First Time*******
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgit1.git
+git push -u origin master
+*/
+
+/***Next Time****/
+git add .
+git commit -m "first commit"
+git push
+
+git clone https://github.com/Aakashdeveloper/testgit1
+
+
+id 
+className
+tagname
+
+
+parent => child (props)
+child => parent(props as function(callback function))
+
+
+function add(a){
+    return a+a
+}
+
+
+add(1)
+
+npm i react-router-dom

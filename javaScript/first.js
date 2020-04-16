@@ -208,3 +208,18 @@ a.filter((data) => {return data*2})
 
 map use to peerform operation 
 filter use for condition
+
+var a = [3,5,7,8,2,6,7,1]
+undefined
+a.indexOf(3)
+0
+a.indexOf(7)
+2
+a.indexOf(1)
+7
+a.indexOf(0)
+-1
+a.indexOf(9)
+-1
+a.indexOf(10)
+-1

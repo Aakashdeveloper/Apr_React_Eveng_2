@@ -180,3 +180,8 @@ function add(a){
 add(1)
 
 npm i react-router-dom
+
+
+///Step tto create dummy api/////
+> npm i -g json-server
+> json-server --watch db.json  --port 8900

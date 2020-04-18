@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 const ArtistList = (props) => {
-    console.log(props)
 
     const renderList = ({artistData})=>{
         if(artistData){
@@ -11,11 +10,15 @@ const ArtistList = (props) => {
                     background:`url('/images/covers/${item.cover}.jpg')`
                 }
                 return(
-                        <Link to="/" className="artist_item" style={myimage} key={item.id}>                                
+                        <Link to={`/artist/${item.id}`} className="artist_item" style={myimage} key={item.id}>                                
                             <div>{item.name}</div>
                         </Link>
                 )
             })
+        }else{
+            return(
+                <img src={'/images/loader1.gif'}/>
+            )
         }
     }
 

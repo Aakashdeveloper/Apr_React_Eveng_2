@@ -205,3 +205,10 @@ React-Redux
 
 mapStateToProps() // Help to recive state from store
 mapDispatchToProps // this help to bind and dipatch action
+
+npm redux react-redux react-slick redux-promise react-router-dom
+
+
+> index.js > Routing> Home.js> action(index.js)> Reducer(index.js)=> Reducer(
+    article_reducer.js)>store(index.js)>index.js>home.js(here in mapStateToProps 
+    we will recive data)

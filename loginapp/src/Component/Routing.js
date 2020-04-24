@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Router} from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 
 import Regsiter from './Register';
 import Header from './Header';

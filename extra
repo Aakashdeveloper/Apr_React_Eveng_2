@@ -14,23 +14,20 @@ React = 3
 React_hooks -1
 React-Redux =2
 React-GarphQL 1
+React-JWT(Login Logut)-1
+Mock API
+json-server
+Depolyment
+-> MERN
 -------------------
 React-Saga -1
-React-JWT(Login Logut)-1
 Basic React Native=1
 ----------------------
 Testing
-
-Depolyment
--> MERN
 -> Docker
 -> Nginx
-
-Mock API
-json-server
-
 Github
-a
+
 --------NOT--------------
 API
 GarphQL
@@ -235,3 +232,9 @@ npm i apollo-boost graphql graphql-tag react-apollo
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+sudo mongod --dbpath  /System/Volumes/Data/data/db
+
+
+///////Production////////
+npm run build

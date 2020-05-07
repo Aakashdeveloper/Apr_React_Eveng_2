@@ -19,19 +19,21 @@ Mock API
 json-server
 Depolyment
 -> MERN
--------------------
+-> Docker
+-> Nginx
+Testing
+Github
 React-Saga -1
 Basic React Native=1
 ----------------------
-Testing
--> Docker
--> Nginx
-Github
+
 
 --------NOT--------------
 API
 GarphQL
 Login/Logout
+
+Generator function
 
 
 ///
@@ -238,3 +240,53 @@ sudo mongod --dbpath  /System/Volumes/Data/data/db
 
 ///////Production////////
 npm run build
+
+docker build . -t aprreactapp
+docker image ls 
+docker run -p 8086:3000 aprreactapp
+
+
+nginx.conf
+
+server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+            root   /var/www/react-app;
+            index  index.html index.htm;
+        }
+    }
+
+
+//very first time for every folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/foodBlog.git
+git push -u origin master
+
+//very first time for every folder
+git add .
+git commit -m "first commit"
+git push
+
+git pull
+
+git checkout -b myfeature
+git add .
+git commit -m "first commit"
+git push -u origin myfeature
+
+git checkout -b master
+
+
+/***********
+Create React Native
+**********/
+
+npm i -g create-react-native-app
+npm i -g expo-cli
+create-react-native-app mymobi
+
+expo (ios,andorid)

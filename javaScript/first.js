@@ -223,3 +223,41 @@ a.indexOf(9)
 -1
 a.indexOf(10)
 -1
+
+
+function loop(userinput){
+    for(i=0;i<userinput;i++){
+        console.log(i)
+    }
+}
+loop(5)
+VM82:3 0
+VM82:3 1
+VM82:3 2
+VM82:3 3
+VM82:3 4
+
+function * loop(userinput){
+    for(i=0;i<userinput;i++){
+       yield i
+    }
+}
+
+loop(5)
+loop {<suspended>}
+var data = loop(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
+data.next()
+{value: undefined, done: true}

@@ -289,4 +289,5 @@ npm i -g create-react-native-app
 npm i -g expo-cli
 create-react-native-app mymobi
 
+
 expo (ios,andorid)
